@@ -32,7 +32,7 @@ def valid_move?(board, index_number)
   end
 end
 
-def move(board,index_number, character='X')
+def move(board,index_number, character = 'X')
   board[index_number] = character
   return board
 end
